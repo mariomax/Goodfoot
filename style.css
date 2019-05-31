@@ -1,0 +1,24 @@
+/**
+Theme Name: goodfoot-child
+Author: Mario at Anchor Tag Design, LLC 
+Author URI: https://www.anchortagdesign.com
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: goodfoot-child
+Template: astra
+*/
+
+/*  Body */
+.ast-container {
+  background-color: #2f3435;
+}
+/* Navigation */
+.elementor-nav-menu--main .elementor-nav-menu a, .elementor-nav-menu--main .elementor-nav-menu a.highlighted, .elementor-nav-menu--main .elementor-nav-menu a:focus, .elementor-nav-menu--main .elementor-nav-menu a:hover {
+  padding: 13px 3px;
+  margin: 0 14px;
+}
+.elementor-57 .elementor-element.elementor-element-5c0e812 .elementor-nav-menu--main .elementor-item.elementor-item-active {
+	padding: 13px 3px;
+}
