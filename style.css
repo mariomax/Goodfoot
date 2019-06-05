@@ -22,3 +22,31 @@ Template: astra
 .elementor-57 .elementor-element.elementor-element-5c0e812 .elementor-nav-menu--main .elementor-item.elementor-item-active {
 	padding: 13px 3px;
 }
+
+/* Sidebar */
+#secondary {
+  background-image: url(http://thegoodfoot.net/wp-content/uploads/2019/06/g-pattern-300.png);
+  background-repeat: repeat;
+  background-size: 40px;
+}
+.sidebar-main {
+  margin: 10px;
+}
+h2.widget-title {
+	border-left: 3px solid #da423d;
+  color: #fff;
+	font-family: "Norwester", sans-serif;
+	font-size: 2rem;
+  line-height: 1;
+  padding-left: 8px;
+	text-transform: uppercase;
+
+}
+#sb_instagram .sb_instagram_header h3 {
+  color: #fff;
+  font-family: "Acre", serif;
+}
+#sb_instagram .sbi_header_text .sbi_bio {
+  color: #fff;
+  font-family: "Acre", serif;
+}
