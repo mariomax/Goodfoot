@@ -10,9 +10,41 @@ Text Domain: goodfoot-child
 Template: astra
 */
 
+/* Palette (copy & paste) */
+/*
+Red: #da423d;
+Orange: #f05728;
+Radiant Yellow: #f99d1e;
+Buff Yellow: #f3c26a;
+Black #2f3435;
+Brown: #6e4a3c;
+Green: #436f4e;
+Purple: #6c3b5e;
+*/
+
 /*  Body */
 .ast-container {
   background-color: #2f3435;
+}
+.address p {
+  margin-bottom: 0;
+}
+.site-content {
+  background-color: #2f3435;
+}
+a.music-a {
+  color: #f05728;
+  text-decoration: none;
+}
+a.music-a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.menu-item p {
+  margin-bottom: 5px;
+}
+.happy-hours p {
+  margin-bottom: 5px;
 }
 /* Navigation */
 .elementor-nav-menu--main .elementor-nav-menu a, .elementor-nav-menu--main .elementor-nav-menu a.highlighted, .elementor-nav-menu--main .elementor-nav-menu a:focus, .elementor-nav-menu--main .elementor-nav-menu a:hover {
@@ -23,14 +55,49 @@ Template: astra
 	padding: 13px 3px;
 }
 
+/* Sticky header on mobile */
+.hero-nav.elementor-sticky--effects {
+  background-color: #2f3435;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.hero-nav.elementor-sticky--effects > .elementor-container {
+  min-height: 2rem;
+}
+.hero-nav > .elementor-container {
+  -webkit-transition: min-height .3s ease !important;
+  transition: min-height .3s ease !important;
+}
+.site-logo .elementor-image img {
+  -webkit-transition: all .3s ease-in;
+  padding: 1.5rem 0;
+  transition: all .3s ease-in;
+}
+.elementor-sticky--effects .site-logo .elementor-image img {
+  width: 60%;
+  padding: 10px;
+}
+.menu-pdf h3 {
+  color: #2f3435;
+  font-family: "Norwester", sans-serif;
+}
+.menu-pdf a {
+  color: #f05728;
+}
+.menu-pdf a:hover {
+  color: #da423d;
+  text-decoration: underline;
+}
+
 /* Sidebar */
 #secondary {
   background-image: url(http://thegoodfoot.net/wp-content/uploads/2019/06/g-pattern-300.png);
   background-repeat: repeat;
   background-size: 40px;
+  background-position: 5px 8px;
 }
 .sidebar-main {
-  margin: 10px;
+  margin: 1rem;
 }
 h2.widget-title {
 	border-left: 3px solid #da423d;
@@ -40,13 +107,61 @@ h2.widget-title {
   line-height: 1;
   padding-left: 8px;
 	text-transform: uppercase;
-
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+  padding: 0;
 }
 #sb_instagram .sb_instagram_header h3 {
   color: #fff;
   font-family: "Acre", serif;
+  font-weight: 500;
 }
 #sb_instagram .sbi_header_text .sbi_bio {
   color: #fff;
   font-family: "Acre", serif;
+}
+#sb_instagram .sbi_load_btn .sbi_btn_text,
+#sb_instagram .sbi_follow_btn a {
+  font-family: "Acre", sans-serif;
+}
+#sb_instagram .sbi_follow_btn a {
+  background: #da423d;
+}
+#sb_instagram .sbi_follow_btn a:hover {
+  -webkit-box-shadow:inset 0 0 10px 20px #f05728;
+          box-shadow:inset 0 0 10px 20px #f05728;
+}
+/* Not happy with mixing media queries BTW. */
+@media (max-width: 767px) {
+  .ast-container {
+    padding: 0;
+  }
+  .elementor-13 .elementor-element.elementor-element-d9e7b4e {
+    margin-top: -15px;
+  }
+  .ast-right-sidebar #secondary {
+    padding: 15px !important;
+  }
+}
+@media (min-width: 769px) {
+  .sidebar-main {
+    margin: 2rem;
+  }
+  .ast-right-sidebar #secondary {
+    border-left: none;
+    margin-left: 0;
+  }
+  .ast-right-sidebar #primary {
+    border-right: none;
+  }
+}
+@media (max-width: 992px) {
+  .ast-right-sidebar #secondary {
+    padding-left: 0;
+  }
+}
+@media (min-width: 993px) {
+  .ast-right-sidebar #secondary {
+    padding-left: 0;
+  }
 }
