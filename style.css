@@ -170,6 +170,15 @@ h3.tribe-events-month-event-title {
   text-decoration: underline;
 } */
 
+/*Hides button without link*/
+#tickets-div .elementor-button-wrapper .elementor-button.elementor-size-md {
+	display: none;
+}
+/*Displays buttons with link*/
+#tickets-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
+	display: inline;
+}
+
 /* Sidebar */
 #secondary {
   background-image: url(http://thegoodfoot.net/wp-content/uploads/2019/06/g-pattern-300.png);
