@@ -27,13 +27,16 @@ Purple: #6c3b5e;
   src: url(http://thegoodfoot.net/wp-content/themes/Goodfoot/fonts/Acre-Medium.otf);
   font-weight: normal;
 }
+
 /*  Body */
 .ast-container {
   background-color: #2f3435;
 }
+
 p {
   font-family: "Acre", sans-serif;
 }
+
 .site-content {
   background-color: #2f3435;
 }
@@ -120,38 +123,47 @@ a.music-a:hover {
 .elementor-post__title a:hover {
   color: #ffffff !important;
 }
+
 a:hover.elementor-post__read-more {
   color: #ffffff !important;
 }
+
 .tribe-events-page-title {
   color: #ffffff !important;
   font-family: "Norwester", sans-serif;
   font-size: 2rem;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
+
 #tribe-bar-views-label {
   color: #2f3435;
 }
+
 h3.tribe-events-month-event-title {
   font-family: "Acre" !important;
 }
+
 .tribe-events-month-event-title a {
   color: #f3c26a !important;
 }
+
 .tribe-events-month-event-title a:hover {
   color: #ffffff !important;
   text-decoration: underline !important;
 }
+
 .entry-content h3 {
   color: #f99d1e !important;
   font-family: "Norwester", sans-serif;
   text-transform: uppercase;
 }
+
 .tribe-events-nav-next,
 .tribe-events-read-more {
   font-family: "Norwester";
   text-transform: uppercase;
 }
+
 /* .single-tribe_events .tribe-events-single-event-title {
   color: #f99d1e;
   font-family: "Norwester", sans-serif;
@@ -177,11 +189,12 @@ h3.tribe-events-month-event-title {
 
 /*Hides button without link*/
 #tickets-div .elementor-button-wrapper .elementor-button.elementor-size-md {
-	display: none;
+  display: none;
 }
+
 /*Displays buttons with link*/
 #tickets-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
-	display: inline;
+  display: inline;
 }
 
 /* Sidebar */
