@@ -147,6 +147,11 @@ h3.tribe-events-month-event-title {
   font-family: "Norwester", sans-serif;
   text-transform: uppercase;
 }
+.tribe-events-nav-next,
+.tribe-events-read-more {
+  font-family: "Norwester";
+  text-transform: uppercase;
+}
 /* .single-tribe_events .tribe-events-single-event-title {
   color: #f99d1e;
   font-family: "Norwester", sans-serif;
