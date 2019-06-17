@@ -118,6 +118,10 @@ a.music-a:hover {
   text-decoration: underline;
 }
 
+#full-menu .elementor-widget-image .elementor-image img {
+  width: 85% !important;
+}
+
 /* Events Calendar edits */
 
 .elementor-post__title a:hover {
@@ -187,14 +191,19 @@ h3.tribe-events-month-event-title {
   text-decoration: underline;
 } */
 
-/*Hides button without link*/
-#tickets-div .elementor-button-wrapper .elementor-button.elementor-size-md {
+/* Hides button without link */
+#tickets-div .elementor-button-wrapper .elementor-button.elementor-size-md,
+#band-1-div .elementor-button-wrapper .elementor-button.elementor-size-md,
+#band-2-div .elementor-button-wrapper .elementor-button.elementor-size-md {
   display: none;
 }
 
-/*Displays buttons with link*/
-#tickets-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
-  display: inline;
+/* Displays buttons with link */
+#tickets-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
+#band-1-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
+#band-2-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
+  display: block;
+  width: max-content;
 }
 
 /* Sidebar */
