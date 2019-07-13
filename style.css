@@ -21,6 +21,13 @@ Brown: #6e4a3c;
 Green: #436f4e;
 Purple: #6c3b5e;
 */
+:root {
+  --red: #da423d;
+  --orange: #f05728;
+  --rYellow: #f99d1e;
+  --bYellow: #f3c26a;
+  --black: #2f3435;
+}
 
 @font-face {
   font-family: Acre;
@@ -42,7 +49,7 @@ p {
 }
 
 a.music-a {
-  color: #f05728;
+  color: var(--rYellow);
   text-decoration: none;
 }
 
@@ -111,11 +118,11 @@ a.music-a:hover {
 }
 
 .menu-pdf a {
-  color: #f99d1e;
+  color: var(--rYellow);
 }
 
 .menu-pdf a:hover {
-  color: #f05728;
+  color: var(--orange);
   text-decoration: underline;
 }
 
@@ -170,7 +177,8 @@ h3.tribe-events-month-event-title {
   text-transform: uppercase;
 }
 
-/* .single-tribe_events .tribe-events-single-event-title {
+/* 
+.single-tribe_events .tribe-events-single-event-title {
   color: #f99d1e;
   font-family: "Norwester", sans-serif;
   font-size: 2rem;
@@ -191,7 +199,8 @@ h3.tribe-events-month-event-title {
 .tribe-events-back a:hover {
   color: #ffffff;
   text-decoration: underline;
-} */
+} 
+*/
 
 /* Art page edits */
 .artist-box.elementor-widget-image-box .elementor-image-box-title a:hover {
@@ -210,6 +219,8 @@ h3.tribe-events-month-event-title {
 #band-1-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
 #band-2-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
   display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
 }
 
@@ -226,7 +237,7 @@ h3.tribe-events-month-event-title {
 }
 
 h2.widget-title {
-  border-left: 3px solid #da423d;
+  border-left: 3px solid var(--red);
   color: #fff;
   font-family: "Norwester", sans-serif;
   font-size: 2rem;
@@ -242,6 +253,7 @@ h2.widget-title {
 .sb_instagram_header {
   padding: 0 !important;
 }
+
 #sb_instagram .sb_instagram_header h3 {
   color: #fff;
   font-family: "Acre", serif;
@@ -259,12 +271,12 @@ h2.widget-title {
 }
 
 #sb_instagram .sbi_follow_btn a {
-  background: #f05728;
+  background: var(--orange);
 }
 
 #sb_instagram .sbi_follow_btn a:hover {
-  -webkit-box-shadow: inset 0 0 10px 20px #da423d;
-  box-shadow: inset 0 0 10px 20px #da423d;
+  -webkit-box-shadow: inset 0 0 10px 20px var(--red);
+  box-shadow: inset 0 0 10px 20px var(--red);
 }
 
 /* Not happy with mixing media queries BTW. */
@@ -280,10 +292,12 @@ h2.widget-title {
   .ast-right-sidebar #secondary {
     padding: 15px !important;
   }
+
   .tribe-events-calendar div[id*=tribe-events-daynum-],
   .tribe-events-calendar div[id*=tribe-events-daynum-] a {
     color: #fff;
   }
+
   .tribe-events-calendar .tribe-events-has-events:after {
     background-color: #fff;
   }
