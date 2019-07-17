@@ -85,7 +85,7 @@ a.music-a:hover {
   padding: 13px 3px;
 }
 
-/* Sticky header on mobile */
+/* Sticky header */
 .hero-nav.elementor-sticky--effects {
   background-color: var(--black);
   -webkit-transition: all .3s ease;
@@ -110,6 +110,19 @@ a.music-a:hover {
 .elementor-sticky--effects .site-logo .elementor-image img {
   width: 60%;
   padding: 10px;
+}
+
+/* Music */
+.price {
+  color: var(--rYellow);
+  font-family: "Norwester", sans-serif;
+  font-size: 115%;
+}
+
+.price:before {
+  content: '';
+  display: block;
+  padding-top: .5rem;
 }
 
 /* Food menu edits */
@@ -304,7 +317,21 @@ h2.widget-title {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+  .elementor-sticky--effects .site-logo .elementor-image img {
+    width: 40%;
+    padding: 10px;
+    transition: all .3s ease;
+  }
+
+  .elementor-sticky--effects .hidden-address .elementor-widget-container {
+    display: none;
+  }
+
+  .elementor-sticky--effects .hidden-nav .elementor-widget-container {
+    display: none;
+  }
+
   .sidebar-main {
     margin: 2rem;
   }
