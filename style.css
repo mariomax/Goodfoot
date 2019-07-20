@@ -32,7 +32,7 @@ Purple: #6c3b5e;
 
 @font-face {
   font-family: Acre;
-  src: url(http://thegoodfoot.net/wp-content/themes/Goodfoot/fonts/Acre-Medium.otf);
+  src: url(https://thegoodfoot.com/wp-content/themes/Goodfoot/fonts/Acre-Medium.otf);
   font-weight: normal;
 }
 
@@ -259,7 +259,7 @@ h3.tribe-events-month-event-title {
 
 /* Sidebar */
 #secondary {
-  background-image: url(http://thegoodfoot.net/wp-content/uploads/2019/06/g-pattern-300.png);
+  background-image: url(https://thegoodfoot.com/wp-content/uploads/2019/07/sidebar-G.png);
   background-repeat: repeat;
   background-size: 40px;
   background-position: 5px 8px;
