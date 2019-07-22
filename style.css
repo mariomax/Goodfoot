@@ -257,6 +257,11 @@ h3.tribe-events-month-event-title {
   width: max-content;
 }
 
+/* Add To Any */
+.a2a_vertical_style a {
+  margin-bottom: .75em;
+}
+
 /* Sidebar */
 #secondary {
   background-image: url(https://thegoodfoot.com/wp-content/uploads/2019/07/sidebar-G.png);
@@ -323,6 +328,10 @@ h2.widget-title {
   .ast-container {
     padding: 0;
   }
+
+  .elementor-page-13 #primary {
+    padding: 0 0 1.5em;
+  } 
 
   .elementor-13 .elementor-element.elementor-element-d9e7b4e {
     margin-top: -15px;
