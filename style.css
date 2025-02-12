@@ -10,7 +10,7 @@ Text Domain: goodfoot-child
 Template: astra
 */
 
-/* Palette (copy & paste) */
+/* OG palette */
 /*
 Red: #da423d;
 Orange: #f05728;
@@ -21,6 +21,7 @@ Brown: #6e4a3c;
 Green: #436f4e;
 Purple: #6c3b5e;
 */
+
 :root {
   --red: #da423d;
   --orange: #f05728;
@@ -42,7 +43,7 @@ Purple: #6c3b5e;
 }
 
 p {
-  font-family: "Acre", sans-serif;
+  font-family: Acre, sans-serif;
 }
 
 .site-content {
@@ -60,7 +61,7 @@ a.music-a:hover {
 }
 
 .menu-item p {
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   margin-bottom: 5px;
 }
 
@@ -88,7 +89,6 @@ a.music-a:hover {
 /* Sticky header */
 .hero-nav.elementor-sticky--effects {
   background-color: var(--black);
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -97,17 +97,16 @@ a.music-a:hover {
 }
 
 .hero-nav>.elementor-container {
-  -webkit-transition: min-height .3s ease !important;
   transition: min-height .3s ease !important;
 }
 
-.site-logo .elementor-image img {
+.site-logo a img {
   -webkit-transition: all .3s ease;
   padding: 1.5rem 0;
   transition: all .3s ease;
 }
 
-.elementor-sticky--effects .site-logo .elementor-image img {
+.elementor-sticky--effects .site-logo a img {
   width: 60%;
   padding: 10px;
 }
@@ -115,7 +114,7 @@ a.music-a:hover {
 /* Music */
 .price {
   color: var(--rYellow);
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   font-size: 115%;
 }
 
@@ -128,7 +127,7 @@ a.music-a:hover {
 /* Food menu edits */
 .menu-pdf h3 {
   color: var(--white);
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
 }
 
 .menu-pdf a {
@@ -140,12 +139,11 @@ a.music-a:hover {
   text-decoration: underline;
 }
 
-#full-menu .elementor-widget-image .elementor-image img {
+#full-menu .elementor-widget-image img {
   width: 85% !important;
 }
 
 /* Events Calendar edits */
-
 .elementor-post__title a:hover {
   color: var(--white) !important;
 }
@@ -156,13 +154,13 @@ a:hover.elementor-post__read-more {
 
 .tribe-events-page-title {
   color: var(--white) !important;
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 .tribe-events-list-separator-month {
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   background-color: var(--black);
 }
 
@@ -175,7 +173,7 @@ a:hover.elementor-post__read-more {
 }
 
 h3.tribe-events-month-event-title {
-  font-family: "Acre" !important;
+  font-family: Acre !important;
 }
 
 .tribe-events-month-event-title a {
@@ -189,7 +187,7 @@ h3.tribe-events-month-event-title {
 
 .entry-content h3 {
   color: var(--rYellow) !important;
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   text-transform: uppercase;
 }
 
@@ -197,7 +195,7 @@ h3.tribe-events-month-event-title {
 .tribe-events-nav-previous,
 .tribe-events-read-more,
 #tribe-mobile-container .type-tribe_events h4 {
-  font-family: "Norwester";
+  font-family: Norwester, sans-serif;
   text-transform: uppercase;
 }
 
@@ -210,30 +208,35 @@ h3.tribe-events-month-event-title {
   border-top: none;
 }
 
-/* 
-.single-tribe_events .tribe-events-single-event-title {
-  color: #f99d1e;
-  font-family: "Norwester", sans-serif;
-  font-size: 2rem;
-  text-transform: uppercase;
+/* Sidebar Shows */
+#sidebar-shows h5,
+#sidebar-shows .tribe-event-duration {
+  display: none;
 }
 
-.tribe-events-schedule h2 {
-  color: var(--white);
+#sidebar-shows ol {
+  list-style: none;
+  margin: 0;
 }
 
-.tribe-events-back a {
-  color: #f99d1e;
-  font-family: "Norwester", sans-serif;
-  font-size: 2rem;
-  text-transform: uppercase;
+#sidebar-shows ol li {
+  margin-bottom: .75rem;
 }
 
-.tribe-events-back a:hover {
-  color: var(--white);
-  text-decoration: underline;
-} 
-*/
+#sidebar-shows h4.tribe-event-title a {
+  color: #FFF;
+  font-family: Acre, sans-serif;
+  font-weight: 700;
+}
+
+#sidebar-shows h4.tribe-event-title a:hover {
+  color: #CCC;
+}
+
+#sidebar-shows .tribe-events-widget-link {
+  font-family: Norwester, sans-serif;
+  font-size: 22px;
+}
 
 /* Art page edits */
 .artist-box.elementor-widget-image-box .elementor-image-box-title a:hover {
@@ -243,14 +246,16 @@ h3.tribe-events-month-event-title {
 /* Hides button without link */
 #tickets-div .elementor-button-wrapper .elementor-button.elementor-size-md,
 #band-1-div .elementor-button-wrapper .elementor-button.elementor-size-md,
-#band-2-div .elementor-button-wrapper .elementor-button.elementor-size-md {
+#band-2-div .elementor-button-wrapper .elementor-button.elementor-size-md,
+.ticket-display .elementor-button-wrapper .elementor-button.elementor-size-sm {
   display: none;
 }
 
 /* Displays buttons with link */
 #tickets-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
 #band-1-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
-#band-2-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md {
+#band-2-div .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-md,
+.ticket-display .elementor-button-wrapper .elementor-button-link.elementor-button.elementor-size-sm {
   display: block;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -277,7 +282,7 @@ h3.tribe-events-month-event-title {
 h2.widget-title {
   border-left: 3px solid var(--red);
   color: var(--white);
-  font-family: "Norwester", sans-serif;
+  font-family: Norwester, sans-serif;
   font-size: 2rem;
   line-height: 1;
   padding-left: 8px;
@@ -287,7 +292,6 @@ h2.widget-title {
 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
   padding: 0;
 }
-
 
 .elementor-slides .slick-slide-inner .elementor-slide-description:not(:last-child),
 .elementor-slides .slick-slide-inner .elementor-slide-heading:not(:last-child) {
@@ -300,18 +304,18 @@ h2.widget-title {
 
 #sb_instagram .sb_instagram_header h3 {
   color: var(--white);
-  font-family: "Acre", serif;
+  font-family: Acre, serif;
   font-weight: 500;
 }
 
 #sb_instagram .sbi_header_text .sbi_bio {
   color: var(--white);
-  font-family: "Acre", serif;
+  font-family: Acre, serif;
 }
 
 #sb_instagram .sbi_load_btn .sbi_btn_text,
 #sb_instagram .sbi_follow_btn a {
-  font-family: "Acre", sans-serif;
+  font-family: Acre, sans-serif;
 }
 
 #sb_instagram .sbi_follow_btn a {
@@ -319,7 +323,6 @@ h2.widget-title {
 }
 
 #sb_instagram .sbi_follow_btn a:hover {
-  -webkit-box-shadow: inset 0 0 10px 20px var(--red);
   box-shadow: inset 0 0 10px 20px var(--red);
 }
 
@@ -331,7 +334,7 @@ h2.widget-title {
 
   .elementor-page-13 #primary {
     padding: 0 0 1.5em;
-  } 
+  }
 
   .elementor-13 .elementor-element.elementor-element-d9e7b4e {
     margin-top: -15px;
@@ -352,18 +355,17 @@ h2.widget-title {
 }
 
 @media (min-width: 768px) {
-  .elementor-sticky--effects .site-logo .elementor-image img {
+  .elementor-sticky--effects .site-logo a img {
     width: 40%;
     padding: 10px;
-    -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
 
-  .elementor-sticky--effects .hidden-address .elementor-widget-container {
+  .elementor-sticky--effects .hidden-address {
     display: none;
   }
 
-  .elementor-sticky--effects .hidden-nav .elementor-widget-container {
+  .elementor-sticky--effects .hidden-nav {
     display: none;
   }
 
@@ -393,9 +395,18 @@ h2.widget-title {
 }
 
 @media (min-width: 993px) {
-  .elementor-sticky--effects .site-logo .elementor-image img {
+  .elementor-sticky--effects .site-logo a img {
     width: 30%;
     padding: 10px;
+  }
+
+  .home .elementor-widget .elementor-posts-container article {
+    flex-direction: row;
+  }
+
+  .home .elementor-widget .elementor-posts-container article .elementor-post__text {
+    padding-left: 2rem;
+    width: 70%;
   }
 
   .ast-container {
